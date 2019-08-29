@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 from tensorflow.keras import models
 
 G = models.load_model('generator_model.h5')
